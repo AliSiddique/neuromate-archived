@@ -16,7 +16,6 @@ import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PlusIcon } from '@heroicons/react/20/solid'
-import Blog from './Blogs'
 
 const filters = [
   {
@@ -205,7 +204,6 @@ export default function Example() {
 
             {/* Product grid */}
             <div className="mt-6 lg:col-span-2 lg:mt-0 xl:col-span-3">
-                <Blog/>
             </div>
           </div>
         </main>
