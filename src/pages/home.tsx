@@ -1,15 +1,12 @@
-import React from 'react'
-import Navbar from '../../components/Navbar'
-import Filter from '../../components/Filter'
-
-import { FunctionComponent } from 'react';
-
+import Blog from '../../components/Blog';
+import React, { FunctionComponent} from 'react';
 const Nice: FunctionComponent = () => {
+
   return (
-    <div>
-        <Navbar />
-        <Filter/>
-    </div>
+    <>
+ 
+    <Blog/>
+    </>
   );
 };
 

@@ -1,9 +1,9 @@
 {
-  "name": "typescript-nextjs-starter",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "name": "neuromate",
+  "description": "Web app for the brain",
   "version": "1.0.0",
   "private": true,
-  "author": "João Pedro Schmitz <hey@joaopedro.dev> (@jpedroschmitz)",
+  "author": "Ali Siddique",
   "license": "MIT",
   "keywords": [
     "nextjs",
@@ -28,9 +28,16 @@
   "dependencies": {
     "@headlessui/react": "1.7.14",
     "@heroicons/react": "2.0.17",
+    "@hookform/resolvers": "3.1.0",
+    "@tailwindcss/forms": "0.5.3",
+    "dotenv": "16.0.3",
+    "firebase": "9.21.0",
     "next": "13.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.43.9",
+    "react-hot-toast": "2.4.1",
+    "yup": "1.1.1"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.1",
